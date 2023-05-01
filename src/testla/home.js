@@ -16,9 +16,21 @@ function home() {
         arrow={true}
         background="tesla1.jpg"
       />
-      <Section name="Model Y" tagLine="View Inventory" leftBtn="Order Now" rightBtn="Demo Drive" background="tesla2.jpeg" />
-   
-      <Section name="Model X" tagLine="View Inventory" leftBtn="Order Now" rightBtn="Demo Drive" background="tesla4.jpeg" />
+      <Section
+        name="Model Y"
+        tagLine="View Inventory"
+        leftBtn="Order Now"
+        rightBtn="Demo Drive"
+        background="tesla2.jpeg"
+      />
+
+      <Section
+        name="Model X"
+        tagLine="View Inventory"
+        leftBtn="Order Now"
+        rightBtn="Demo Drive"
+        background="tesla4.jpeg"
+      />
       <Section
         name="Solar Panels"
         tagLine="Lowest Cost Solar Panels in America"
