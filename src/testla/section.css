@@ -1,0 +1,61 @@
+section {
+  /* every section is taking 100% (full page) for that height will be 100vh */
+  height: 100vh;
+  /* background-image: url("../../public/images/tesla1.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .cta img {
+  height: 10%;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+section .modelName {
+  padding-top: 6rem;
+  padding-bottom: 11rem;
+  color: black;
+  text-align: center;
+}
+
+section .modelName h1 {
+  font-size: 3rem;
+}
+
+section h1 {
+  font-size: 3rem;
+  color: black;
+}
+section .cta {
+  /* padding-top: 18rem; */
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+section .cta .left {
+  background-color: rgba(23, 26, 32, 0.8);
+  color: white;
+}
+
+section .cta .right {
+  background-color: rgba(244, 244, 244, 0.65);
+  color: rgb(57, 60, 65);
+}
+section .cta a {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 225px;
+  padding: 10px 30px;
+  text-align: center;
+
+  margin: 0 2.35rem;
+}
